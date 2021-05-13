@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>初めまして、<br></br>田村孝輔です</h1>
+      <h1>初めまして<br></br>田村孝輔です</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
@@ -15,7 +15,7 @@ function HeroSection() {
         buttonStyle='btn--outline'
         buttonSize='btn--large'
         >
-          始めよう
+          どんな人？
         </Button>
         <Button
         className='btns'

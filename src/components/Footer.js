@@ -8,20 +8,20 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-        Join the Adventure newsletter to receive our best vacation deals
+        これは、試しのホームページです
         </p>
         <p className='footer-subscription-text'>
-        You can unsubscribe at any time.
+        いつでもご連絡ください
         </p>
         <div className='input-areas'>
           <form>
             <input 
             type='email' 
             name='email' 
-            placeholder='Your Email' 
+            placeholder='メールアドレス' 
             className='footer-input' 
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>送信</Button>
           </form>
         </div>
       </section>
@@ -55,10 +55,10 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL <i className="fab fa-typo3"></i>
+              TK <i class="fas fa-address-card" />
             </Link>
           </div>
-          <small className='website-rights'>TRVL ©︎ 2021</small>
+          <small className='website-rights'>TK ©︎ 2021</small>
           <div className="social-icons">
             <Link
             className='social-icon-link facebook'

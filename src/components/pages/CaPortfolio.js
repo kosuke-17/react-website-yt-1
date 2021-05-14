@@ -12,6 +12,7 @@ function CaPortfolio(props) {
         />
         <div className='port_item_info'>
           <h5 className='port_item_text'>{props.text}</h5>
+          <a href={props.href}>アプリを開く</a>
         </div>
       </li>
     </>

@@ -17,19 +17,13 @@
   color: #000;
 }
 
-.content-url {
-  margin: 5px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
 .content a {
   text-decoration: none;
 }
 
-.port_item {
+.port_items {
   position: absolute;
-  top: 20rem;
+  top: 13rem;
   right: 0;
   bottom: 0;
   left: 0;
@@ -42,6 +36,7 @@
 }
 
 .port_item {
+  margin-bottom: 40px;
 }
 
 .port_item_text {

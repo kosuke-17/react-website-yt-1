@@ -1,0 +1,45 @@
+.portfolio {
+  height: 100px;
+  color: #000;
+  font-size: 100px;
+}
+.contents {
+  display: flex;
+  text-align: center;
+  
+}
+.content {
+  width: 300px;
+  font-size: 24px;
+  padding: 10px;
+  margin: 5px;
+  color: #000;
+}
+
+.content a {
+  color: black;
+  text-decoration: none;
+}
+
+.port_items {
+  position: absolute;
+  top: 13rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.port_item {
+  margin-bottom: 40px;
+}
+
+.port_item_text {
+  color: #252e48;
+  font-size: 30px;
+}

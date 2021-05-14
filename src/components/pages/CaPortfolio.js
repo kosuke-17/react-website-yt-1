@@ -14,6 +14,9 @@ function CaPortfolio(props) {
           <h5 className='port_item_text'>{props.text}</h5>
           <a href={props.href}>アプリを開く</a>
         </div>
+        <div className='git-hub'>
+          <a href={props.githref}>~GitHub~</a>
+        </div>
       </li>
     </>
   )}

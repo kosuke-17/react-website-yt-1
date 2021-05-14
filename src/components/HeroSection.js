@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css'; 
+import './HeroSection.css';
 
 function HeroSection() {
   return (
@@ -11,17 +11,17 @@ function HeroSection() {
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
-        className='btns'
-        buttonStyle='btn--outline'
-        buttonSize='btn--large'
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
         >
           どんな人？
         </Button>
         <Button
-        className='btns'
-        buttonStyle='btn--primary'
-        buttonSize='btn--large'
-        onClick={console.log('hey')}
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
         >
           のぞきにいこう <i className='far fa-play-circle' />
         </Button>
